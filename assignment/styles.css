@@ -1,0 +1,182 @@
+ body{
+  margin:10px;
+  padding:0px;
+  font-family:'Roboto',sans-serif ;
+ }
+ h2{
+   color: #fff;
+  font-size:2rem;
+ }
+ h1{
+   font-size: 1.8rem;
+   color:#fff;
+
+ }
+ p{
+   color:#fff;
+
+ }
+ section{
+   width:100%;
+   height:100vh;
+   background-color: rgb(61, 35, 134);
+ }
+ section .leftBox{
+   width:40%;
+   height:100%;
+   float:left;
+   padding:50px;
+   box-sizing: border-box;
+ }
+ section .leftBox .content{
+   text-align: center;
+   color:#fff;
+ }
+ .box{
+   border:2px solid rgb(119, 77, 235);
+   background-color: rgb(68, 27, 182);
+   border-radius:15px 15px 15px 15px;
+   padding:20px;
+ }
+  
+ .btn{
+   font-size:2rem;
+   border-radius:12px;
+ }
+ section .leftBox .content h2{
+   margin:0;
+   padding:0;
+   font-size: 20px;
+ }
+  section .offer{
+    position:relative;
+    width:60%;
+    height:100%;
+    background:rgba(0,0,0,.5);
+    float:right;
+    box-sizing: border-box;
+  }
+
+
+
+
+  section .offer ul{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    margin:0;
+    padding: 40px;
+    box-sizing:border-box;
+  }
+
+  section .offer ul li{
+    list-style: none;
+    background: linear-gradient(to right,#21209c,#c6fced);
+   
+    box-sizing: border-box;
+    height:148px;
+    width:459px;
+    border-radius: 11px;
+    /* margin:15px 0 ; */
+    margin-top:16px;
+
+  }
+  .offer h2{
+     text-align: center;
+   
+  }
+
+  section .offer ul li .discount{
+     
+    position:relative;
+    padding:20px;
+    background:#fdb827;
+    box-sizing: border-box;
+    width:16%;
+    height:100%;
+    float:left;
+    text-align: center; 
+    border-radius:11px 0 0 11px;
+  }
+
+  section .offer ul li .discount h2{
+    position:absolute;
+    margin:0;
+    padding:0;
+    top:50%;
+    font-size:1.5rem;
+    
+  }
+
+  section .offer ul li .details{
+    padding:8px;
+    box-sizing: border-box;
+    width:80%;
+    height:100%;
+    float:left;
+  }
+  section .offer ul li .details h2{
+    position: relative;
+    margin:0;
+    padding:0;
+
+  }
+  section .offer ul li .details p{
+    position: relative;
+    margin:10px 0 0;
+    padding:0;
+    
+  }
+
+  @media(max-width:991px){
+    section{
+      
+      height:100%;
+      background-position:center;
+      }
+
+      section .leftBox{
+        width:100%;
+        height:auto;
+        float:none;
+        padding:20px;
+
+      }
+      section .offer{
+        width:100%;
+        height:auto;
+        background:transparent;
+        float:none;
+      }
+      section .leftBox .content{
+        padding: 20px;
+      }
+      section .leftBox .content h2{
+        font-size:30px;
+
+      }
+      section .offer ul{
+        position:relative;
+        transform:translateY(0px);
+        padding:0 20px 0 20 px;
+         }
+         section .offer ul li{
+          height:auto;
+          width:auto;
+          padding:0;
+
+
+           }
+           section .offer ul li .discount h2{
+             font-size:17px;
+              padding-top:25px;
+           }
+         
+           section .offer ul li .details{
+             width:100%;
+             float: none;
+             padding-left:100px;
+             background:transparent;
+
+           }
+  }
